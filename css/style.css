@@ -9,6 +9,7 @@ body{
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     line-height: 1.4;
+    padding: 2px;
 }
 
 .container{
@@ -34,6 +35,10 @@ body{
     height: 20px;
     background-color:rgb(224, 211, 194);
     color: black;
+    position: fixed;
+    top: 0;
+    left: 1px;
+    right: 1px;
 }
 .header{
     display: flex;
@@ -68,6 +73,8 @@ a{
 .menu{
     height: 40px;
     background-color:#333;
+    position: sticky;
+    top:20px;
 }
 nav{
     display: flex;
@@ -91,8 +98,8 @@ nav{
 
 .left-card{
     width:auto;
-    height: 700px;
-    margin-top:10px;
+    height: 800px;
+    margin-top:80px;
     margin-left: 40px;
 }
 figure img{
@@ -136,11 +143,13 @@ ul{
 }
 
 .right-card{
-    width: 850px;
-    height: 700px;
+    width: auto;
+    height: 800px;
     margin-top: 10px;
     margin-left: 10px;
     font-size: 17px;
+    margin-top: 80px;
+    margin-right: 30px;
 }
 .right-card .grid{
     grid-template-columns: 1fr 2fr;
@@ -185,31 +194,4 @@ ul{
 .footer-boys img{
     width: 60px;
     border-radius: 50%;
-}
-
-/*Tablet and under*/
-
-@media (max-width:760px){
-    .header{
-        display: none;
-    }
-    .grid,
-    .container .grid{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .menu{
-        width:auto;
-        display: flex;
-    }
-    .menu a{
-        margin-left: 70px;
-    }
-    .menu nav a h2{
-        font-size: 19px;
-        padding-left: 26px;
-        text-align: center;
-
-    }
-    
 }
