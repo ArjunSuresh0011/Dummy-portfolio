@@ -1,10 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    color: #fff;
 }
 
 .card{
-    background-color: antiquewhite;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     line-height: 1.4;
@@ -32,6 +33,7 @@ body{
     width: 1270px;
     height: 20px;
     background-color:rgb(224, 211, 194);
+    color: black;
 }
 .header{
     display: flex;
@@ -55,20 +57,20 @@ body{
 
 a{
     text-decoration: none;
-    color: #333;
-    font-size: 20px;
+    color: #fff;
+    font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .menu{
-    height: 50px;
-    background-color: #fff;
+    height: 40px;
+    background-color: #333;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    line-height: 1.2px;
+    line-height: .88px;
 }
 
 /*section*/
@@ -81,6 +83,9 @@ nav{
     padding: auto;
     margin: auto;
 }
+
+/*left*/
+
 .left-card{
     width:300px;
     height: 700px;
@@ -91,6 +96,7 @@ figure img{
     width: 200px;
     border-radius: 50%;
     margin-left: 10px;
+    border:3px solid #FFD700;
 }
 figcaption{
     font-size: 20px;
@@ -105,8 +111,9 @@ figcaption{
 }
 .left-card h2{
     font-size: 16px;
-    border-bottom: 1px solid #333;
-    border-top: 1px solid #333;
+    border-bottom: 2px solid #FFD700;
+    border-top: 2px solid #FFD700;
+    border-radius: 20px;
 }
 
 .social i{
@@ -126,11 +133,11 @@ ul{
 }
 
 .right-card{
-    width: 800px;
-    height: 700px;
+    width: 850px;
+    height: 680px;
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 13px;
+    font-size: 17px;
     padding: 10px;
 }
 .right-card .grid{
@@ -141,8 +148,9 @@ ul{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color:#FFD700;
+    border-radius: 20px;
+    color: black;
 }
 .right-card .list{
     margin-left: 200px;
