@@ -3,15 +3,28 @@ body{
     margin: 0;
 }
 
+.card{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    line-height: 1.6;
+}
+
 .container{
   width: 1270px;
   height: 800px;
-  background-color: aquamarine;  
+  background-color: #fff;  
 }
 
 .flex{
     display: flex;
     align-items: center;
+}
+
+.grid{
+    display: grid;
+    column-gap: 20px;
 }
 
 /* Header */
@@ -48,11 +61,34 @@ a{
 
 .menu{
     height: 50px;
-    background-color: burlywood;
+    background-color: #fff;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     line-height: 1.2px;
+}
+
+/*section*/
+
+.section .grid{
+    grid-template-columns: 1fr 7fr;
+}
+
+.section{
+    padding: auto;
+    margin: auto;
+}
+.left-card{
+    width:300px;
+    height: 700px;
+    margin-top:10px;
+    margin-left: 40px;
+}
+.right-card{
+    width: 800px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
