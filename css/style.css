@@ -90,7 +90,7 @@ nav{
 /*left*/
 
 .left-card{
-    width:300px;
+    width:auto;
     height: 700px;
     margin-top:10px;
     margin-left: 40px;
@@ -185,4 +185,31 @@ ul{
 .footer-boys img{
     width: 60px;
     border-radius: 50%;
+}
+
+/*Tablet and under*/
+
+@media (max-width:760px){
+    .header{
+        display: none;
+    }
+    .grid,
+    .container .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .menu{
+        width:auto;
+        display: flex;
+    }
+    .menu a{
+        margin-left: 70px;
+    }
+    .menu nav a h2{
+        font-size: 19px;
+        padding-left: 26px;
+        text-align: center;
+
+    }
+    
 }
