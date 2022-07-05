@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+  width: 1270px;
+  height: 800px;
+  background-color: aquamarine;  
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+
+.header{
+    width: 1270px;
+    height: 20px;
+    background-color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0px;
+    align-items: center;
+    line-height: .33
+}
+.header > div{
+    padding: 0 20px;
+    font-size: 10px
+}
+.email-phone{
+    display: flex;
+}
+.email-phone p{
+    padding: 0 20px;
+}
+
+/*Menu*/
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.menu{
+    height: 50px;
+    background-color: burlywood;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.2px;
+}
