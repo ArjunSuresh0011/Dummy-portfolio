@@ -13,7 +13,7 @@ body{
 
 .container{
   width: 1270px;
-  height: 800px;
+  height: auto;
   background-color: #fff;  
 }
 
@@ -61,10 +61,13 @@ a{
     font-size: 14px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+.menu a:hover{
+    color: #FFD700;
+}
 
 .menu{
     height: 40px;
-    background-color: #333;
+    background-color:#333;
 }
 nav{
     display: flex;
@@ -134,11 +137,10 @@ ul{
 
 .right-card{
     width: 850px;
-    height: 680px;
+    height: 700px;
     margin-top: 10px;
     margin-left: 10px;
     font-size: 17px;
-    padding: 10px;
 }
 .right-card .grid{
     grid-template-columns: 1fr 2fr;
@@ -146,7 +148,7 @@ ul{
 }
 .right-card div h2{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 8px;
     padding-bottom: 10px;
     background-color:#FFD700;
     border-radius: 20px;
@@ -160,4 +162,27 @@ ul{
 }
 .right-card pre{
     font-family: 'Times New Roman', Times, serif;
+}
+
+/*Footer*/
+
+.footer{
+    background-color:darkgray;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+    overflow:hidden;
+}
+.footer-boys{
+    justify-content: space-around;
+}
+.footer-icon > i{
+    padding-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer-boys img{
+    width: 60px;
+    border-radius: 50%;
 }
